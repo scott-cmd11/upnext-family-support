@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UpNext Family Support</title>
+  <style>
+    :root {
+      --ink: #17212b;
+      --muted: #52616f;
+      --line: #c8d0d8;
+      --soft: #f3f6f8;
+      --accent: #24527a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #fff;
+      line-height: 1.5;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    header {
+      border-bottom: 3px solid var(--ink);
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      letter-spacing: 0;
+      line-height: 1.08;
+    }
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 1.25rem;
+      letter-spacing: 0;
+    }
+    h3 {
+      margin: 18px 0 6px;
+      font-size: 1rem;
+      letter-spacing: 0;
+    }
+    p { margin: 0 0 12px; }
+    .meta, .note {
+      color: var(--muted);
+    }
+    .contact {
+      border-left: 5px solid var(--accent);
+      background: var(--soft);
+      padding: 14px 16px;
+      margin: 18px 0;
+    }
+    footer {
+      margin-top: 36px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .92rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>UpNext Family Support</h1>
+      <p class="meta">Draft for publication. Last updated June 30, 2026.</p>
+    </header>
+
+    <p>UpNext Family imports activity calendar feeds and Apple Calendar subscriptions selected by a parent, then highlights what is next, what changed, and what conflicts.</p>
+
+    <div class="contact">
+      <p><strong>Contact:</strong> <a href="mailto:scott.hazlitt@gmail.com">scott.hazlitt@gmail.com</a></p>
+      <p class="note">Replace this placeholder before TestFlight or App Store submission.</p>
+    </div>
+
+    <h2>Common Help</h2>
+
+    <h3>I cannot find a calendar link</h3>
+    <p>Look in the source app for labels such as Subscribe, Export, iCal, Calendar Feed, or Calendar Sync. If the link opens in Apple Calendar, UpNext Family can often import it from Apple Calendar instead.</p>
+
+    <h3>My feed stopped refreshing</h3>
+    <p>Some providers rotate or expire calendar links. Copy a fresh subscribe or iCal link from the source app and add it again.</p>
+
+    <h3>Apple Calendar import does not show a calendar</h3>
+    <p>Confirm the calendar is visible in Apple Calendar and has upcoming or recent events. Then return to UpNext Family and refresh Apple Calendars.</p>
+
+    <h3>I bought Lifetime Unlock on another device</h3>
+    <p>Open Settings, choose Lifetime Unlock, and tap Restore purchase. This requires the same Apple ID used for the original purchase.</p>
+
+    <h3>How do I delete my data?</h3>
+    <p>Open Settings and choose Delete all local data. This removes local family data from the device.</p>
+
+    <footer>
+      This page should be published at a stable support URL before App Store submission.
+    </footer>
+  </main>
+</body>
+</html>

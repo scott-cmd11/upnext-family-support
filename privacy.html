@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UpNext Family Privacy Policy</title>
+  <style>
+    :root {
+      --ink: #17212b;
+      --muted: #52616f;
+      --line: #c8d0d8;
+      --soft: #f3f6f8;
+      --accent: #24527a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #fff;
+      line-height: 1.5;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    header {
+      border-bottom: 3px solid var(--ink);
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      letter-spacing: 0;
+      line-height: 1.08;
+    }
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 1.25rem;
+      letter-spacing: 0;
+    }
+    p { margin: 0 0 12px; }
+    .meta, .note {
+      color: var(--muted);
+    }
+    ul {
+      margin: 8px 0 0;
+      padding-left: 22px;
+    }
+    li { margin: 6px 0; }
+    .callout {
+      border-left: 5px solid var(--accent);
+      background: var(--soft);
+      padding: 14px 16px;
+      margin: 18px 0;
+    }
+    footer {
+      margin-top: 36px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .92rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>UpNext Family Privacy Policy</h1>
+      <p class="meta">Draft for publication. Last updated June 30, 2026.</p>
+    </header>
+
+    <p>UpNext Family helps families coordinate activity schedules by importing calendar feeds and calendars selected by a parent. The app is designed as a local-first product: family schedule data stays on the device unless the parent chooses a calendar feed that must be fetched from the source provider.</p>
+
+    <div class="callout">
+      <p>Before launch, replace the support email placeholder and publish this page at a stable public URL for App Store Connect.</p>
+    </div>
+
+    <h2>Data Stored On Device</h2>
+    <ul>
+      <li>Child names, nicknames, activity labels, and optional notes entered by the parent.</li>
+      <li>Calendar feed labels, source names, redacted URLs, sync status, and warnings.</li>
+      <li>Full calendar feed URLs in Keychain where available.</li>
+      <li>Imported event titles, dates, times, locations, notes, source URLs, changes, and local conflict results.</li>
+      <li>Notification preferences and travel-buffer settings.</li>
+      <li>Lifetime Unlock entitlement state after an App Store purchase or restore.</li>
+    </ul>
+
+    <h2>Data Sent Off Device</h2>
+    <ul>
+      <li>Calendar feed requests are sent to the calendar provider identified by the feed URL, such as a team, school, camp, or activity platform.</li>
+      <li>App Store purchase and restore actions are handled by Apple through StoreKit.</li>
+      <li>The current MVP does not include analytics, advertising SDKs, tracking SDKs, a backend account system, or third-party crash reporting.</li>
+    </ul>
+
+    <h2>Apple Calendar Access</h2>
+    <p>If a parent grants calendar access, UpNext Family reads selected event calendars so it can build the family briefing, schedule changes, and conflict checks. UpNext Family does not edit Apple Calendar.</p>
+
+    <h2>Children's Data</h2>
+    <p>Family schedules can reveal sensitive information about children. UpNext Family treats full calendar URLs as private because some signed feed links can expose a child schedule. Parents should only import calendars they are allowed to access.</p>
+
+    <h2>Data Deletion</h2>
+    <p>Parents can delete all local app data from Settings. This removes children, feeds, imported events, changes, conflicts, pending shared imports, settings, and stored calendar feed URLs on that device.</p>
+
+    <h2>Contact</h2>
+    <p>Support email: <a href="mailto:scott.hazlitt@gmail.com">scott.hazlitt@gmail.com</a></p>
+
+    <footer>
+      This policy must be reviewed before publication and updated if analytics, backend sync, caregiver accounts, hosted feeds, crash reporting, or other third-party services are added.
+    </footer>
+  </main>
+</body>
+</html>
